@@ -7,6 +7,11 @@ at the time of writing this line, this page loads:
 * 1482 bytes of css (669 bytes minified)
 * 504 bytes index.html (288 bytes minified)
 
+actual transmitted sizes are a bit larger because for now we host on github,
+which ignores static .gz files when sending compressed responses.
+
+this will change once @magic hosts itself.
+
 thats all.
 
 
