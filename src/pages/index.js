@@ -1,1 +1,1 @@
-module.exports = () => div('hello, world')
+module.exports = state => div(state.title)
