@@ -1,0 +1,44 @@
+{
+  "name": "@magic/example-minimal",
+  "version": "0.23.5",
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve",
+    "dev": "magic dev",
+    "publish": "magic publish",
+    "connect": "magic connect"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic/example-minimal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/example-minimal/issues"
+  },
+  "devDependencies": {
+    "@magic/core": "github:magic/core",
+    "@magic/test": "0.0.12"
+  },
+  "author": "Wizards & Witches",
+  "homepage": "https://magic.github.io/example-minimal",
+  "description": "@magic example page.",
+  "keywords": [
+    "magic",
+    "example",
+    "minimal"
+  ],
+  "license": "AGPL-3.0",
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
