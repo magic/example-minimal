@@ -1,5 +1,7 @@
 ## @magic/example-minimal
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/magic/example-minimal.svg)](https://greenkeeper.io/)
+
 This is a minimal example app for [@magic](https://github.com/magic) features.
 
 at the time of writing this line, this page loads:
