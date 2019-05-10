@@ -1,0 +1,11 @@
+{
+  "css": "sha384-7/AaOj5KXi/jMfg6F/NIKMHYEDNTUhd7YH6C3rOrPvAQoRR5odIL32K6jw1lShwk",
+  "js": "sha384-F21xBy5LZBfNZQYfy4bw7VXXDGCtQkqf8XtfxwfGnX6IkMUzdxeQJ8VTx7p9s+b4",
+  "pages": {
+    "/example-minimal/": "sha384-pudetINcZBpk7+R+td9sUlQg4yr3zE965U7s30Lznw/Ue25krbfDI8nejbcwj1DP",
+    "/example-minimal/404/": "sha384-DhAS4LY4KB+2UP09DCtXaA6bpQBWOhIptN+/MlrgM1O8XrIwyvYYn0lZmNKdkjPt"
+  },
+  "static": {
+    "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+"
+  }
+}
