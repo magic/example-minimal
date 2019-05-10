@@ -2,6 +2,13 @@
 
 This is a minimal example app for [@magic](https://github.com/magic) features.
 
+[![NPM version][npm-image]][npm-url]
+[![Linux Build Status][travis-image]][travis-url]
+[![Windows Build Status][appveyor-image]][appveyor-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
+
 at the time of writing this line, this page loads:
 * 9140 bytes of javascript (3811 bytes zopfli gzipped)
 * 1482 bytes of css (669 bytes zopfli gzipped)
@@ -40,3 +47,15 @@ thats all.
 git clone https://github.com/magic/example-minimal
 ```
 
+[npm-image]: https://img.shields.io/npm/v/@magic/example-minimal.svg
+[npm-url]: https://www.npmjs.com/package/@magic/example-minimal
+[travis-image]: https://api.travis-ci.org/magic/example-minimal.svg?branch=master
+[travis-url]: https://travis-ci.org/magic/example-minimal
+[appveyor-image]: https://img.shields.io/appveyor/ci/magic/example-minimal/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magic/example-minimal/branch/master
+[coveralls-image]: https://coveralls.io/repos/github/magic/example-minimal/badge.svg
+[coveralls-url]: https://coveralls.io/github/magic/example-minimal
+[greenkeeper-image]: https://badges.greenkeeper.io/magic/example-minimal.svg
+[greenkeeper-url]: https://badges.greenkeeper.io/magic/example-minimal.svg
+[snyk-image]: https://snyk.io/test/github/magic/example-minimal/badge.svg
+[snyk-url]: https://snyk.io/test/github/magic/example-minimal
