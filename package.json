@@ -1,7 +1,15 @@
 {
   "name": "@magic/example-minimal",
   "version": "0.23.5",
-  "scripts": {
+  "private": true,
+  "author": "Wizards & Witches",
+  "description": "@magic example page.",
+  "license": "AGPL-3.0",
+  "homepage": "https://magic.github.io/example-minimal",
+  "engines": {
+    "node": ">=12.2.0"
+  },
+    "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
     "test": "t --exclude docs",
@@ -26,15 +34,11 @@
     "@magic/core": "github:magic/core",
     "@magic/test": "0.1.6"
   },
-  "author": "Wizards & Witches",
-  "homepage": "https://magic.github.io/example-minimal",
-  "description": "@magic example page.",
   "keywords": [
     "magic",
     "example",
     "minimal"
   ],
-  "license": "AGPL-3.0",
   "contributors": [
     {
       "name": "jascha ehrenreich",
