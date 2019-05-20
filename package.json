@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.12"
+    "@magic/test": "0.1.6"
   },
   "author": "Wizards & Witches",
   "homepage": "https://magic.github.io/example-minimal",
