@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.1.9"
+    "@magic/test": "0.1.10"
   },
   "keywords": [
     "magic",
