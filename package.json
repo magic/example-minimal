@@ -32,8 +32,9 @@
     "url": "https://github.com/magic/example-minimal/issues"
   },
   "devDependencies": {
-    "@magic/core": "github:magic/core",
-    "@magic/test": "0.1.21"
+    "@magic-modules/gdpr": "0.0.4",
+    "@magic/core": "0.0.2",
+    "@magic/test": "0.1.23"
   },
   "keywords": [
     "magic",
