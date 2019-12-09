@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@magic-modules/gdpr": "0.0.4",
-    "@magic/core": "0.0.2",
+    "@magic/core": "0.0.3",
     "@magic/test": "0.1.23"
   },
   "keywords": [
