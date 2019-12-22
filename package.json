@@ -32,7 +32,7 @@
     "url": "https://github.com/magic/example-minimal/issues"
   },
   "devDependencies": {
-    "@magic/core": "0.0.4",
+    "@magic/core": "0.0.5",
     "@magic/test": "0.1.23"
   },
   "keywords": [
