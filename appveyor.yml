@@ -1,29 +1,27 @@
-# http://www.appveyor.com/docs/appveyor-yml
+language: node_js
 
-version: "{build}"
+node_js:
+  - "13.5.0"
 
-environment:
+cache: npm
+
+os:
+  - linux
+  - osx
+
+env:
   matrix:
-    - nodejs_version: "12"
-      platform: x64
-    - nodejs_version: "12"
-      platform: x86
+    - NODE_VERSION="13"
 
 matrix:
   fast_finish: true
 
 install:
-  # Build
   - npm install
   - npm link
+
+script:
   - npm test
 
-cache:
-  # local npm modules
-  - 'node_modules -> package.json'
-
-build: off
-
-test: off
-
-deploy: off
+after_success:
+  - npm run calls
