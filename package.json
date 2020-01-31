@@ -32,11 +32,11 @@
     "url": "https://github.com/magic/example-minimal/issues"
   },
   "dependencies": {
-    "@magic/core": "0.0.19"
+    "@magic/core": "0.0.21"
   },
   "devDependencies": {
     "@magic/format": "0.0.7",
-    "@magic/test": "0.1.32"
+    "@magic/test": "0.1.33"
   },
   "keywords": [
     "magic",
