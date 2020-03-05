@@ -1,7 +1,7 @@
 export default {
   ROOT: 'src',
-  WEB_ROOT: '/example-minimal/',
-  URL: 'magic.github.io/example-minimal',
+  WEB_ROOT: '/minimal/',
+  URL: 'magic-examples.github.io/minimal',
   PUBLIC: 'docs',
   THEME: 'example',
 }
