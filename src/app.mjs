@@ -1,3 +1,4 @@
 export const state = {
-  title: '@magic: hello, world',
+  title: '@magic',
+  description: 'hello, world',
 }
