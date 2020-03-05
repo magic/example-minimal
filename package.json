@@ -1,5 +1,5 @@
 {
-  "name": "@magic/example-minimal",
+  "name": "@magic-examples/minimal",
   "version": "0.23.5",
   "private": true,
   "author": "Wizards & Witches",
@@ -26,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic/example-minimal.git"
+    "url": "git+https://github.com/magic-examples/minimal.git"
   },
   "bugs": {
-    "url": "https://github.com/magic/example-minimal/issues"
+    "url": "https://github.com/magic-examples/minimal/issues"
   },
   "dependencies": {
     "@magic/core": "0.0.55"
