@@ -1,7 +1,17 @@
-export const theme = {
-  '.hello': {
-    color: 'green',
+export const vars = {
+  text: {
+    dark: '#212121',
   },
+
+  neutral: 'green',
 }
 
-export default theme
+export default (v = {}) => {
+  v = { ...vars, ...v }
+
+  return {
+    '.hello': {
+      color: vars.neutral,
+    },
+  }
+}
