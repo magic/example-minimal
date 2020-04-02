@@ -23,11 +23,11 @@ location: vienna, austria, europe
 * 4 requests (index.html, magic.js, magic.css, favicon.ico)
 * 17 KB / 10 KB transferred
 
-[100% google pagespeed score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmagic.github.io%2Fexample-minimal)
+[100% google pagespeed score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmagic-examples.github.io%2Fminimal)
 
-[w3 css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmagic.github.io%2Fexample-minimal%2Fmagic.css)
+[w3 css validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmagic-examples.github.io%2Fminimal%2Fmagic.css)
 
-[w3 html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmagic.github.io%2Fexample-minimal%2F)
+[w3 html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmagic-examples.github.io%2Fminimal%2F)
 
 [demo](https://magic.github.io/example-minimal)
 
