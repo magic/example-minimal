@@ -32,6 +32,7 @@
     "url": "https://github.com/magic-examples/minimal/issues"
   },
   "dependencies": {
+    "@magic-modules/no-spy": "0.0.1",
     "@magic/core": "0.0.81"
   },
   "devDependencies": {
