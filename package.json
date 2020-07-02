@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@magic-modules/no-spy": "0.0.1",
-    "@magic/core": "0.0.81"
+    "@magic/core": "0.0.82"
   },
   "devDependencies": {
     "@magic/format": "0.0.11",
