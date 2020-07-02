@@ -2,6 +2,9 @@
 
 This is a minimal example app for [@magic](https://github.com/magic) features.
 
+visit the [@magic-examples](https://github.com/magic-examples)
+github organization to see other examples
+
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]
 [![Windows Build Status][appveyor-image]][appveyor-url]
