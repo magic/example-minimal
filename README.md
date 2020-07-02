@@ -9,6 +9,21 @@ This is a minimal example app for [@magic](https://github.com/magic) features.
 [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 
+[npm-image]: https://img.shields.io/npm/v/@magic/example-minimal.svg
+[npm-url]: https://www.npmjs.com/package/@magic/example-minimal
+[travis-image]: https://api.travis-ci.org/magic/example-minimal.svg?branch=master
+[travis-url]: https://travis-ci.org/magic/example-minimal
+[appveyor-image]: https://img.shields.io/appveyor/ci/magic/example-minimal/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magic/example-minimal/branch/master
+[coveralls-image]: https://coveralls.io/repos/github/magic/example-minimal/badge.svg
+[coveralls-url]: https://coveralls.io/github/magic/example-minimal
+[greenkeeper-image]: https://badges.greenkeeper.io/magic/example-minimal.svg
+[greenkeeper-url]: https://badges.greenkeeper.io/magic/example-minimal.svg
+[snyk-image]: https://snyk.io/test/github/magic/example-minimal/badge.svg
+[snyk-url]: https://snyk.io/test/github/magic/example-minimal
+
+### file sizes
+
 at the time of writing this line, this page loads:
 * 12000 bytes of javascript (5500 bytes compressed)
 * 2900 bytes of css (1760 bytes compressed)
@@ -31,20 +46,36 @@ location: vienna, austria, europe
 
 [demo](https://magic-examples.github.io/minimal)
 
-#### install:
-```bash
-git clone https://github.com/magic-examples/minimal
-```
+### installation
 
-[npm-image]: https://img.shields.io/npm/v/@magic/example-minimal.svg
-[npm-url]: https://www.npmjs.com/package/@magic/example-minimal
-[travis-image]: https://api.travis-ci.org/magic/example-minimal.svg?branch=master
-[travis-url]: https://travis-ci.org/magic/example-minimal
-[appveyor-image]: https://img.shields.io/appveyor/ci/magic/example-minimal/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/magic/example-minimal/branch/master
-[coveralls-image]: https://coveralls.io/repos/github/magic/example-minimal/badge.svg
-[coveralls-url]: https://coveralls.io/github/magic/example-minimal
-[greenkeeper-image]: https://badges.greenkeeper.io/magic/example-minimal.svg
-[greenkeeper-url]: https://badges.greenkeeper.io/magic/example-minimal.svg
-[snyk-image]: https://snyk.io/test/github/magic/example-minimal/badge.svg
-[snyk-url]: https://snyk.io/test/github/magic/example-minimal
+#### requirements
+
+* be in a directory you want to work in
+* have nodejs > 13.5.0 installed.
+
+```
+// clone this repository
+git clone https://github.com/magic-examples/minimal ./your-project-name
+
+// go to the new project directoy
+cd ./your-project-name
+
+// install @magic dependencies
+npm install
+
+// run dev server
+npm run dev
+
+// goto http://localhost:2323  in your browser to see the page
+
+// build changes you made to docs dir
+npm run build
+
+// reset the remotes to your repository
+git remote rename origin upstream
+git remote add origin git@provider.com/{your name}/{your repo}
+
+// publish changes, after committing them to the local git
+git push
+
+```
