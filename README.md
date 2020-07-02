@@ -1,4 +1,4 @@
-## @magic/example-minimal
+## @magic-examples/minimal
 
 This is a minimal example app for [@magic](https://github.com/magic) features.
 
@@ -29,11 +29,11 @@ location: vienna, austria, europe
 
 [w3 html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmagic-examples.github.io%2Fminimal%2F)
 
-[demo](https://magic.github.io/example-minimal)
+[demo](https://magic-examples.github.io/minimal)
 
 #### install:
 ```bash
-git clone https://github.com/magic/example-minimal
+git clone https://github.com/magic-examples/minimal
 ```
 
 [npm-image]: https://img.shields.io/npm/v/@magic/example-minimal.svg
