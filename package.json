@@ -33,11 +33,11 @@
   },
   "dependencies": {
     "@magic-modules/no-spy": "0.0.5",
-    "@magic/core": "0.0.90"
+    "@magic/core": "0.0.91"
   },
   "devDependencies": {
-    "@magic/format": "0.0.15",
-    "@magic/test": "0.1.54"
+    "@magic/format": "0.0.17",
+    "@magic/test": "0.1.56"
   },
   "keywords": [
     "magic",
