@@ -7,7 +7,7 @@
   "license": "AGPL-3.0",
   "homepage": "https://magic.github.io/example-minimal",
   "engines": {
-    "node": ">=14.2.0"
+    "node": ">=14.15.4"
   },
   "scripts": {
     "start": "t -p",
